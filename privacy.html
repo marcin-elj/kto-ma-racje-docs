@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polityka prywatności — Kto Ma Rację?</title>
+<style>
+  :root {
+    --primary: #C2185B;
+    --text: #1A1A1A;
+    --muted: #666;
+    --border: #E5E5E5;
+    --bg: #FFFFFF;
+    --surface: #FAFAFA;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .lang-switch {
+    text-align: right;
+    font-size: 0.9em;
+    margin-bottom: 12px;
+  }
+  .lang-switch a { color: var(--primary); text-decoration: none; }
+  h1 { color: var(--text); font-size: 2em; margin-bottom: 0.25em; }
+  h2 { color: var(--primary); font-size: 1.25em; margin-top: 1.75em; }
+  .subtitle { color: var(--muted); font-size: 1em; }
+  .date { color: var(--muted); font-size: 0.85em; margin-top: 4px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 16px 0;
+  }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  hr { border: 0; border-top: 2px solid var(--border); margin: 32px 0; }
+  a { color: var(--primary); word-break: break-word; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #F5F5F5; --muted: #AAA; --border: #333; --bg: #1A1A1A; --surface: #252525; }
+  }
+</style>
+</head>
+<body>
+
+<div class="lang-switch">
+  <a href="#en">English ↓</a> · <a href="./terms.html">Regulamin / Terms</a>
+</div>
+
+<!-- ===================== POLISH ===================== -->
+<div class="card">
+  <h1>Polityka prywatności</h1>
+  <div class="subtitle">Kto Ma Rację? — Marcin Eljasz</div>
+  <div class="date">Obowiązuje od: 13 kwietnia 2026</div>
+</div>
+
+<div class="card">
+  <h2>1. Kto jest administratorem danych?</h2>
+  <p>Administratorem Twoich danych osobowych jest Marcin Eljasz, twórca aplikacji „Kto Ma Rację?”. W razie pytań dotyczących prywatności napisz na adres: <a href="mailto:deep.journey.app@gmail.com">deep.journey.app@gmail.com</a>.</p>
+
+  <h2>2. Jakie dane zbieramy?</h2>
+  <p>Zbieramy wyłącznie dane niezbędne do działania aplikacji:</p>
+  <ul>
+    <li>Adres e-mail (rejestracja i logowanie)</li>
+    <li>Nazwa wyświetlana (imię lub pseudonim)</li>
+    <li>Treści sporów wpisywane przez użytkowników</li>
+    <li>Wyniki analizy emocjonalnej i werdykty AI</li>
+    <li>Token powiadomień push</li>
+    <li>Opcjonalny profil osobisty: opis siebie, obawy, stan zdrowia, ważne wydarzenia życiowe</li>
+  </ul>
+
+  <h2>3. W jakim celu przetwarzamy dane?</h2>
+  <p>Twoje dane przetwarzamy wyłącznie po to, żeby dostarczyć usługę mediacji AI — analizować spory, generować oceny emocjonalne i rekomendacje.</p>
+
+  <h2>4. Gdzie przechowujemy dane?</h2>
+  <p>Dane przechowujemy w Supabase (region EU). Cała komunikacja pomiędzy aplikacją a serwerem jest szyfrowana (TLS/HTTPS).</p>
+
+  <h2>5. Przetwarzanie przez AI</h2>
+  <p>Treści sporów są wysyłane do API Anthropic Claude w celu analizy. Anthropic nie przechowuje tych danych po zakończeniu przetwarzania i nie wykorzystuje ich do trenowania modeli.</p>
+
+  <h2>6. Dane wrażliwe (zdrowie)</h2>
+  <p>Podanie informacji o stanie zdrowia jest w pełni dobrowolne. Jeśli je podasz, AI uwzględni je wyłącznie jako kontekst przy analizie sporów. Nie udostępniamy tych danych nikomu.</p>
+
+  <h2>7. Jak długo przechowujemy dane?</h2>
+  <p>Przechowujemy Twoje dane tak długo, jak masz aktywne konto. Po usunięciu konta wszystkie dane zostają trwale usunięte.</p>
+
+  <h2>8. Twoje prawa (RODO)</h2>
+  <p>Masz prawo do:</p>
+  <ul>
+    <li>Dostępu do swoich danych</li>
+    <li>Sprostowania nieprawidłowych danych</li>
+    <li>Usunięcia danych (prawo do bycia zapomnianym)</li>
+    <li>Wniesienia skargi do organu nadzorczego (UODO)</li>
+  </ul>
+  <p>Aby skorzystać z tych praw, napisz na: <a href="mailto:deep.journey.app@gmail.com">deep.journey.app@gmail.com</a>.</p>
+
+  <h2>9. Udostępnianie danych trzecim stronom</h2>
+  <p>Nie sprzedajemy Twoich danych nikomu. Udostępniamy je wyłącznie dostawcom infrastruktury niezbędnej do działania aplikacji:</p>
+  <ul>
+    <li>Anthropic (USA) — przetwarzanie analiz AI przez Claude API</li>
+    <li>Supabase (EU) — hosting bazy danych i autoryzacja</li>
+    <li>Expo (USA) — dostarczanie powiadomień push</li>
+    <li>Google AdMob (USA) — wyświetlanie reklam użytkownikom planu Free</li>
+  </ul>
+
+  <h2>10. Reklamy i identyfikator reklamowy (Google AdMob)</h2>
+  <p>Użytkownicy planu Free widzą reklamy dostarczane przez Google AdMob. W tym celu Google może zbierać:</p>
+  <ul>
+    <li>Identyfikator reklamowy urządzenia (Advertising ID)</li>
+    <li>Adres IP i przybliżoną lokalizację</li>
+    <li>Podstawowe informacje techniczne (wersja systemu, model urządzenia)</li>
+  </ul>
+  <p>Wyświetlamy reklamy niespersonalizowane — Google nie używa Twoich danych osobowych do targetowania reklam w tej aplikacji. Możesz zresetować lub wyłączyć Advertising ID w ustawieniach systemu. Użytkownicy planu Premium nie widzą reklam.</p>
+  <p>Polityka prywatności Google AdMob: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+  <h2>11. Pliki cookie i śledzenie</h2>
+  <p>Aplikacja nie używa plików cookie ani narzędzi śledzących poza wymienionymi wyżej. Jedyne tokeny przechowywane lokalnie dotyczą autoryzacji (sesja logowania) i preferencji (motyw, język).</p>
+
+  <h2>12. Dzieci</h2>
+  <p>Aplikacja jest przeznaczona dla osób pełnoletnich (18+). Nie zbieramy świadomie danych osób poniżej 13. roku życia. Jeśli zauważymy takie konto, zostanie ono usunięte.</p>
+</div>
+
+<hr>
+
+<!-- ===================== ENGLISH ===================== -->
+<a id="en"></a>
+<div class="card">
+  <h1>Privacy Policy</h1>
+  <div class="subtitle">Kto Ma Rację? (Who's Right?) — Marcin Eljasz</div>
+  <div class="date">Effective: April 13, 2026</div>
+</div>
+
+<div class="card">
+  <h2>1. Data controller</h2>
+  <p>Your personal data is managed by Marcin Eljasz, creator of the "Kto Ma Rację?" app. For privacy questions, contact: <a href="mailto:deep.journey.app@gmail.com">deep.journey.app@gmail.com</a>.</p>
+
+  <h2>2. What data we collect</h2>
+  <p>We only collect data necessary to run the service:</p>
+  <ul>
+    <li>Email address (registration and login)</li>
+    <li>Display name (first name or nickname)</li>
+    <li>Dispute texts submitted by users</li>
+    <li>Emotion analysis results and AI verdicts</li>
+    <li>Push notification tokens</li>
+    <li>Optional personal profile: bio, fears, health conditions, life events</li>
+  </ul>
+
+  <h2>3. Purpose of data processing</h2>
+  <p>We process your data solely to provide the AI mediation service — analyzing disputes, generating emotional scores, and producing recommendations.</p>
+
+  <h2>4. Where we store data</h2>
+  <p>Data is stored on Supabase (EU region). All communication between the app and our servers is encrypted (TLS/HTTPS).</p>
+
+  <h2>5. AI processing</h2>
+  <p>Dispute texts are sent to the Anthropic Claude API for analysis. Anthropic does not retain this data beyond processing and does not use it for model training.</p>
+
+  <h2>6. Sensitive data (health)</h2>
+  <p>Providing health information is entirely voluntary. If you choose to share it, AI will use it only as context when analyzing disputes. We do not share this data with anyone.</p>
+
+  <h2>7. Data retention</h2>
+  <p>We keep your data as long as your account is active. When you delete your account, all data is permanently removed.</p>
+
+  <h2>8. Your rights (GDPR)</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li>Access your personal data</li>
+    <li>Rectify inaccurate data</li>
+    <li>Delete your data (right to be forgotten)</li>
+    <li>Lodge a complaint with a supervisory authority</li>
+  </ul>
+  <p>To exercise these rights, email: <a href="mailto:deep.journey.app@gmail.com">deep.journey.app@gmail.com</a>.</p>
+
+  <h2>9. Third-party sharing</h2>
+  <p>We do not sell your data. We only share it with infrastructure providers necessary for the service to operate:</p>
+  <ul>
+    <li>Anthropic (USA) — AI analysis via Claude API</li>
+    <li>Supabase (EU) — database hosting and authentication</li>
+    <li>Expo (USA) — push notification delivery</li>
+    <li>Google AdMob (USA) — serving ads to Free tier users</li>
+  </ul>
+
+  <h2>10. Ads and Advertising ID (Google AdMob)</h2>
+  <p>Free tier users see ads served by Google AdMob. For this purpose, Google may collect:</p>
+  <ul>
+    <li>Device Advertising ID</li>
+    <li>IP address and approximate location</li>
+    <li>Basic technical information (OS version, device model)</li>
+  </ul>
+  <p>We serve non-personalized ads — Google does not use your personal data for ad targeting in this app. You can reset or disable the Advertising ID in your system settings. Premium tier users do not see ads.</p>
+  <p>Google AdMob Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+
+  <h2>11. Cookies and tracking</h2>
+  <p>The app does not use cookies or tracking tools beyond those listed above. The only tokens stored locally are authentication tokens (login session) and preferences (theme, language).</p>
+
+  <h2>12. Children</h2>
+  <p>This app is intended for adults (18+). We do not knowingly collect data from users under 13. If we discover such an account, it will be deleted.</p>
+</div>
+
+</body>
+</html>
